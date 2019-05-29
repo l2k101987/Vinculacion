@@ -15,6 +15,7 @@ const routes: Routes = [
     path: 'list',
     loadChildren: './list/list.module#ListPageModule'
   }
+  //{ path: 'contaminacion-del-aires', loadChildren: './contaminacion-del-aires/contaminacion-del-aires.module#ContaminacionDelAiresPageModule' }
 ];
 
 @NgModule({
