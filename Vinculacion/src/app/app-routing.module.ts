@@ -17,7 +17,8 @@ const routes: Routes = [
     loadChildren: './list/list.module#ListPageModule'
   },
   { path: 'secciones', loadChildren: './secciones/secciones.module#SeccionesPageModule' },  { path: 'subsecciones', loadChildren: './subsecciones/subsecciones.module#SubseccionesPageModule' },
-  { path: 'preguntas', loadChildren: './preguntas/preguntas.module#PreguntasPageModule' }
+  { path: 'preguntas', loadChildren: './preguntas/preguntas.module#PreguntasPageModule' },
+  { path: 'nacionalidades', loadChildren: './nacionalidades/nacionalidades.module#NacionalidadesPageModule' }
 
 ];
 

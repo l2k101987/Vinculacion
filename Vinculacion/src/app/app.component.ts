@@ -37,6 +37,12 @@ export class AppComponent {
       url: '/preguntas',
       icon: 'help'
     }
+    ,
+    {
+      title: 'Nacionalidades',
+      url: '/nacionalidades',
+      icon: 'flag'
+    }
   ];
 
   constructor(
