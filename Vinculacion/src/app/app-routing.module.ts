@@ -14,7 +14,8 @@ const routes: Routes = [
   {
     path: 'list',
     loadChildren: './list/list.module#ListPageModule'
-  },  { path: 'contaminacion-del-sueloes', loadChildren: './contaminacion-del-sueloes/contaminacion-del-sueloes.module#ContaminacionDelSueloesPageModule' }
+  },
+  { path: 'contaminacion-del-sueloes', loadChildren: './contaminacion-del-sueloes/contaminacion-del-sueloes.module#ContaminacionDelSueloesPageModule' }
 
 ];
 
