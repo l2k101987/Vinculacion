@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
+import { SeccionesPageModule } from './secciones/secciones.module';
 
 const routes: Routes = [
   {
