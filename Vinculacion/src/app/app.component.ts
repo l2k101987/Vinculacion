@@ -21,8 +21,8 @@ export class AppComponent {
       icon: 'list'
     },
     {
-      title: 'Contaminacion Suelo',
-      url: '/suelos',
+      title: 'Categorias de Preguntas',
+      url: '/secciones',
       icon: 'photos'
     }
   ];
