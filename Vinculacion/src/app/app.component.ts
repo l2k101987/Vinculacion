@@ -23,7 +23,19 @@ export class AppComponent {
     {
       title: 'Categorias de Preguntas',
       url: '/secciones',
-      icon: 'photos'
+      icon: 'folder'
+    }
+    ,
+    {
+      title: 'Sub Categoria',
+      url: '/subsecciones',
+      icon: 'copy'
+    }
+    ,
+    {
+      title: 'Preguntas',
+      url: '/preguntas',
+      icon: 'help'
     }
   ];
 
